@@ -1,7 +1,7 @@
 # Aquabouns-V3.0
 
 Le programme entièrement GRATUIT d'automatisation d'aquarium récifal.
-Le Linux du récifaliste ;)
+
 
 l’AQUABOUNS en questions:  
 > l'AQUABOUNS c'est quoi ? ----------------------- l'AQUABOUNS est un programme pour automatiser votre aquarium récifal. 
@@ -27,6 +27,7 @@ Merci à tous le forum Arduino pour son aide.
 Merci à Commodore et maxime d'avoir participer a la phase de test.
 
 Et un énorme merci a celui qui a redesigner, entre autre, toute la partie graphique de cette Aquabouns V3.0.
+
 !!!!!!!!!! Loïc 'Solyum' D. !!!!!!!!!!
 Pour voir son travail ou le contacter:
 https://www.behance.net/solyum
