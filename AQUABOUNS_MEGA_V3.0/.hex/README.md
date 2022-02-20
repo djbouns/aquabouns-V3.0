@@ -3,11 +3,11 @@
 
 Les instalations simplifiées de l'Aquabouns ont étées configurées en fonctions de differentes affectations des pins en fonctions du montage.
 ----------------
-- Pour les versions PCBouns 1.5, 1.6 et 2.0, l'affectations a été faite en concordance.
+- Pour les versions PCBouns 1.5, 1.6 et 2.0, l'affectations a été faite en concordence de chaque PCBouns.
 
 - Pour la version utilisateur voici l'affectation : 
 
-// entrées/sorties analogique
+> entrées/sorties analogique
 hardResetWIFI = A5; 
 hardResetGSM = A6;
 pinInCoupureCourant = A7;
@@ -15,8 +15,7 @@ pinInBatterie = A8;
 pinOutRelaisChauffage = A10;
 pinOutRelaisEcumeur = A11;
 pinOutRelaisRemontee = A13;
-
-// entrées/sorties digital
+> entrées/sorties digital
 pinOutBrassage[3] {2, 3, 4};
 pinOUTOscillo1 = 5;
 pinOUTOscillo2 = 6;
