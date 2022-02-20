@@ -19,7 +19,8 @@ l’Aquabouns en questions:
  
  *-*-*-*-*
  
- > Tout est mis à votre disposition gratuitement, 
+> Tout est mis à votre disposition gratuitement, 
+
 > Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposition gratuitement en faisant un DON PAYPAL :  
  [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/donate/?hosted_button_id=HWQ5X3M39VEP4)
  
