@@ -7,46 +7,47 @@ Les instalations simplifiées de l'Aquabouns ont étées configurées en fonctio
 
 - Pour la version utilisateur voici l'affectation : 
 
-* entrées/sorties analogique
-hardResetWIFI = A5; 
-hardResetGSM = A6;
-pinInCoupureCourant = A7;
-pinInBatterie = A8;
-pinOutRelaisChauffage = A10;
-pinOutRelaisEcumeur = A11;
-pinOutRelaisRemontee = A13;
+// entrées/sorties analogique
+hardResetWIFI = A5
+hardResetGSM = A6
+pinInCoupureCourant = A7
+pinInBatterie = A8
+pinOutRelaisChauffage = A10
+pinOutRelaisEcumeur = A11
+pinOutRelaisRemontee = A13
 
-* entrées/sorties digital
-pinOutBrassage[3] {2, 3, 4};
-pinOUTOscillo1 = 5;
-pinOUTOscillo2 = 6;
-pinOUTOscillo3 = 7;
-pinOutRelaisVentilateurRampe = 8;
-pinOutEclairage[4] {11, 12, 9, 10};
-pinInSondeDs18b20 13
-nextion Serial1
-gsm Serial2
-d1mini Serial3
-20 sda > ds3231 + 3x MODUL ATLAS
-21 scl > ds3231 + 3x MODUL ATLAS
-pinInFlotteurGodetEcumeur = 27;
-pinOutRelaisRefuge = 28;
-pinInFlotteurReserveBas = 29;
-pinOutRelaisRemplissageReserve = 30;
-pinInFlotteurReserveHaut = 31;
-pinOutRAC = 32;
-pinInFlotteurOsmolation = 33;
-pinInFlotteurNiveauEcumeur = 35;
-pinOutRelaisDistributeurNouriture = 37;
-pinInFlotteurSecurite = 39;
-pinOutBatterie = 41;
-pinOutRelaisVentilateurBac = 47;
-pinOutbuzzer = 48;
+// entrées/sorties digital
+pinOutBrassage = 2, 3, 4
+pinOUTOscillo1 = 5
+pinOUTOscillo2 = 6
+pinOUTOscillo3 = 7
+pinOutRelaisVentilateurRampe = 8
+pinOutEclairage = 11, 12, 9, 10
+pinInSondeDs18b20 = 13
+nextion = Serial1
+gsm = Serial2
+d1mini = Serial3
+sda > ds3231 + 3x MODUL ATLAS = 20
+scl > ds3231 + 3x MODUL ATLAS = 21
+pinInFlotteurGodetEcumeur = 27
+pinOutRelaisRefuge = 28
+pinInFlotteurReserveBas = 29
+pinOutRelaisRemplissageReserve = 30
+pinInFlotteurReserveHaut = 31
+pinOutRAC = 32
+pinInFlotteurOsmolation = 33
+pinInFlotteurNiveauEcumeur = 35
+pinOutRelaisDistributeurNouriture = 37
+pinInFlotteurSecurite = 39
+pinOutBatterie = 41
+pinOutRelaisVentilateurBac = 47
+pinOutbuzzer = 48
 pinOutRelaisOsmolation = 49;
-50 miso > carte sd
-51 mosi > carte sd
-52 sck > carte sd
-SD_CS_PIN
+miso > carte sd = 50
+mosi > carte sd = 51
+sck > carte sd = 52
+cs > carte sd = 53
+
 ----------------
 
 
