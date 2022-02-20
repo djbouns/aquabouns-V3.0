@@ -7,7 +7,7 @@ Les instalations simplifiées de l'Aquabouns ont étées configurées en fonctio
 
 - Pour la version utilisateur voici l'affectation : 
 
-> entrées/sorties analogique
+entrées/sorties analogique
 hardResetWIFI = A5; 
 hardResetGSM = A6;
 pinInCoupureCourant = A7;
@@ -15,7 +15,7 @@ pinInBatterie = A8;
 pinOutRelaisChauffage = A10;
 pinOutRelaisEcumeur = A11;
 pinOutRelaisRemontee = A13;
-> entrées/sorties digital
+entrées/sorties digital
 pinOutBrassage[3] {2, 3, 4};
 pinOUTOscillo1 = 5;
 pinOUTOscillo2 = 6;
