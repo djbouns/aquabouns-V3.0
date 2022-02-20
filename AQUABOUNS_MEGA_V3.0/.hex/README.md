@@ -75,6 +75,8 @@ Les instalations simplifiées de l'Aquabouns ont été configurées en fonctions
 * nextion Serial1
 * d1mini Serial2
 * gsm Serial3
+* sda > ds3231 + 3x MODUL ATLAS = 20
+* scl > ds3231 + 3x MODUL ATLAS = 21
 * pinInCoupureCourant = 22
 * pinInFlotteurGodetEcumeur = 24
 * pinInFlotteurReserveBas = 25
