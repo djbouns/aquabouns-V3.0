@@ -4,15 +4,25 @@ l'Aquabouns, le programme entièrement GRATUIT d'automatisation d'aquarium réci
 
 
 
-l’AQUABOUNS en questions:  
-> l'AQUABOUNS c'est quoi ? ----------------------- l'AQUABOUNS est un programme pour automatiser votre aquarium récifal. 
+l’Aquabouns en questions:  
+> l'Aquabouns c'est quoi ? ----------------------- l'Aquabouns est un programme pour automatiser votre aquarium récifal. 
 > 
-> Comment ça fonctionne ?------------------------- le programme AQUABOUNS est prévu pour etre instalé sur une cartes arduino Mega. l'arduino communique ensuite avec différents périphériques (écran, module wifi et module GSM) et interprète l'état des différents capteurs (flotteur, sonde de température, horloge) et en fonction du paramétrage, intervient sur le matériel du bac (pompe remonté, brassage, ventilation, écumeur ...). 
+> Comment ça fonctionne ?------------------------- le programme Aquabouns est prévu pour etre instalé sur une cartes arduino Mega. l'arduino communique ensuite avec différents périphériques (écran, module wifi et module GSM) et interprète l'état des différents capteurs (flotteur, sonde de température, horloge) et en fonction du paramétrage, intervient sur le matériel du bac (pompe remonté, brassage, ventilation, écumeur ...). 
 > 
-> Comment obtenir le programme ? à quel prix ? --- l'AQUABOUNS est mis a disposition GRATUITEMENT, il a été déposé sous License libre (GPL 3.0) afin que tout le monde puisse en profiter. 
+> Comment obtenir le programme ? à quel prix ? --- l'Aquabouns est mis a disposition GRATUITEMENT, il a été déposé sous License libre (GPL 3.0) afin que tout le monde puisse en profiter. 
 > 
 > Comment faire le montage ? --------------------- Tout se trouve dans les notices que vous pouvez télécharger sur www.aquabouns.fr et si le montage n'est pas à votre porté, vous pouvez vous faire aider d'un PCBouns, www.pcbouns.fr. 
 
+ *-*-*-*-*
+ 
+ *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-*
+ 
+ *-*-*-*-*
+ 
+ > Tout est mis à votre disposition gratuitement, 
+> Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposition gratuitement en faisant un DON PAYPAL :  
+ [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/donate/?hosted_button_id=HWQ5X3M39VEP4)
+ 
  *-*-*-*-*
  
  *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-*
@@ -42,15 +52,6 @@ contact: loic_dekeyser@outlook.com
  
  *-*-*-*-*
  
-> Tout est mis à votre disposition gratuitement, 
-> Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposition gratuitement en faisant un DON PAYPAL :  
- [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/donate/?hosted_button_id=HWQ5X3M39VEP4)
- 
- *-*-*-*-*
- 
- *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-*
- 
- *-*-*-*-*
  
 ### Changements apportés dans la V3.0
 -------------------------------------
