@@ -1,13 +1,17 @@
 ### Vous avez la possibilité de choisir parmis plusieurs model d'ecran nextion
+-----
 
+!!! IMPORTANT !!! 
 
-!!! IMPORTANT !!!
+il faut imperativement utiliser un ecran nextion ORIGINAL. 
 
-il faut imperativement utiliser un ecran nextion ORIGINAL, les copies ne reconnaise pas les fichier 
+Les copies ne reconnaisent pas les fichiers 
 
 https://nextion.itead.cc/nextion-shop/
   
-!!! IMPORTANT !!!
+-----
+
+
 
  #### Afin de faire votre choix il faut evaluer vos besoins :
   - taille 5" ou 7"
@@ -21,7 +25,7 @@ https://nextion.itead.cc/nextion-shop/
   - Un écran résistif est constitué de deux surfaces séparées par de minuscules entretoises et parcourues de connecteurs.
   Le touché du doigt ou d'une pointe quelconque déforme la surface supérieure et met en contact ses connecteurs avec ceux de la surface intérieure. L'utilisation d'un stylet est souvent necessaire.
   - Un écran tactile capacitif : Quand le doigt, conducteur d'électricité, touche l'écran, des charges électriques lui sont transférées.
-
+-----
   ### voici les models compatibles avec l'Aquabouns V3 :
 -  ecran 5" NX8048P050-011R <<< version inteligent resistif
 -  ecran 5" NX8048P050-011C <<< version inteligent capacitif
