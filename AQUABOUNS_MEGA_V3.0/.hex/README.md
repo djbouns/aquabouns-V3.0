@@ -1,4 +1,4 @@
-# Affectation des pins pour les versions simplifiées
+# Affectation des pins pour les fichiers d'instalation simplifiées
 
 Les instalations simplifiées de l'Aquabouns ont été configurées en fonctions de differentes affectations des pins en fonctions de votre montage :
 
