@@ -1,6 +1,6 @@
 # Affectation des pins pour les fichiers d'instalation simplifiées
 
-Les instalations simplifiées de l'Aquabouns ont été configurées en fonctions de differentes affectations des pins en fonctions de votre montage :
+Les fichiers d'installations simplifiées ont été configurées en affectant les pins en fonction de votre montage :
 
 #### > Affectation version PCBouns 1.5, 1.6 et 2.0 faite conformement au PCBouns utilisé.
 -----
