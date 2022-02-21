@@ -1,10 +1,14 @@
 # Aquabouns-V3.0
 
-l'Aquabouns, le programme entièrement GRATUIT d'automatisation d'aquarium récifal.
+#### l'Aquabouns, le programme entièrement GRATUIT d'automatisation d'aquarium récifal.
 
-
-
-l’Aquabouns en questions:  
+ *-*-*-*-*
+ 
+ *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-*
+ 
+ *-*-*-*-*
+ 
+###### l’Aquabouns en questions:  
 > l'Aquabouns c'est quoi ? ----------------------- l'Aquabouns est un programme pour automatiser votre aquarium récifal. 
 > 
 > Comment ça fonctionne ?------------------------- le programme Aquabouns est prévu pour etre instalé sur une cartes arduino Mega. l'arduino communique ensuite avec différents périphériques (écran, module wifi et module GSM) et interprète l'état des différents capteurs (flotteur, sonde de température, horloge) et en fonction du paramétrage, intervient sur le matériel du bac (pompe remonté, brassage, ventilation, écumeur ...). 
@@ -19,12 +23,12 @@ l’Aquabouns en questions:
  
  *-*-*-*-*
  
-> Tout est mis à votre disposition GRATUITEMENT, 
+#### Tout est mis à votre disposition GRATUITEMENT, 
 
 
  [![Donate](https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=HWQ5X3M39VEP4)
  
- > Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposition gratuitement en faisant un DON
+##### Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposition gratuitement en faisant un DON
  
  *-*-*-*-*
  
