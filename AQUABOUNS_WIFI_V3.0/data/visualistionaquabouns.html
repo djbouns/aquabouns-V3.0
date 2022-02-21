@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.86" />
+    <meta name="description" content="PAge de visualmisation a distance" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://aquabouns.fr/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://aquabouns.fr/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://aquabouns.fr/favicon-16x16.png"
+    />
+    <script>
+      function obtenirVariables() {
+        var uniqueURL = "reqEtatVariables";
+        var request = new XMLHttpRequest(); // http://www.toutjavascript.com/reference/ref-xmlhttprequest.php
+        // la fonction à appeler lors d'un changement d'avancement de la requête AJAX
+        request.onreadystatechange = function () {
+          if (this.readyState == 4) {
+            // Indicateur de l'avancement de l'appel AJAX == 4 => Données complètement accessibles
+            if (this.status == 200) {
+              // Code retour du serveur après l'appel AJAX == 200 => OK, tout s'est bien passé
+              if (this.responseXML != null) {
+                document.getElementById("TimeHID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "TimeH"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("TimeMID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "TimeM"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("TimeSID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "TimeS"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("TbacID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Tbac"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("TrampeID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Trampe"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("Pe1ID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Plight1"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("Pe2ID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Plight2"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("Pe3ID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Plight3"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("Pe4ID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Plight4"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("Pbrass1ID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Pbrass1"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("Pbrass2ID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Pbrass2"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("Pbrass3ID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Pbrass3"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("PhbacID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Phbac"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("RedoxID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "Redox"
+                  )[0].childNodes[0].nodeValue;
+                document.getElementById("ECID").innerHTML =
+                  this.responseXML.getElementsByTagName(
+                    "EC"
+                  )[0].childNodes[0].nodeValue;
+              }
+            }
+          }
+        };
+        request.open("GET", uniqueURL, true); // ici on envoie la requête GET sur l'URL /reqEtatVariables
+        request.send(null);
+        setTimeout("obtenirVariables()", 10000); // on rappelle obtenirVariables() dans 5s
+      }
+    </script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+      @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      input[type="button"]:hover {
+        background-color: #33cc00;
+      }
+      body {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        background-color: #011235;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+      }
+      body > header {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        justify-content: center;
+        text-decoration: none;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #203761;
+        border-radius: 0 0 2rem 2rem;
+      }
+      body > header > h1 {
+        display: flex;
+        align-self: center;
+        margin: 0;
+      }
+      body > header > nav {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+      }
+      body > header > h1 > a {
+        background: url(https://aquabouns.fr/img/logo_header.svg) no-repeat;
+        background-size: 100%;
+        display: block;
+        width: calc(140px * 1.3);
+        height: calc(37px * 1.3);
+        text-indent: -9999px;
+        overflow: hidden;
+        text-decoration: none;
+      }
+      body > .desktop {
+        max-width: 1140px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        text-decoration: none;
+      }
+      body > div {
+        justify-self: center;
+        align-self: center;
+        margin: 4rem;
+        font-size: 3rem;
+        border-radius: 1rem;
+        background-color: #203761;
+        padding: 1rem;
+      }
+      main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        color: white;
+        width: 100%;
+      }
+      main > div {
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        min-width: 35vh;
+        border-radius: 1rem;
+        background-color: #203761;
+      }
+      main > div > div {
+        flex-wrap: nowrap;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding-top: 0.2rem;
+      }
+      main > div > div > p {
+        display: flex;
+        margin: 0 0 0 0.5rem;
+      }
+      .ph {
+        color: #c82fd6;
+      }
+      .redox {
+        color: #3936cc;
+      }
+      .sel {
+        color: #711ae0;
+      }
+      .temp {
+        color: #e720a3;
+      }
+      @media screen and (max-width: 1125px) {
+        main {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          gap: 2rem;
+          color: white;
+          width: 100%;
+          max-width: 50vh;
+          align-self: center;
+          justify-self: center;
+        }
+      }
+    </style>
+  </head>
+  <body onload="obtenirVariables()">
+    <header>
+      <h1><a href="#">Aquabouns</a></h1>
+    </header>
+    <div>
+      <span id="TimeHID">...</span>H<span id="TimeMID">...</span>&nbsp;
+      <span id="TimeSID">...</span>s
+    </div>
+
+    <main> 
+      <div class="temperature">
+        <div class="temp"> <p>Température aquarium :</p><p id="TbacID">...</p><p>°</p></div><div> <p>Température rampe :</p><p id="TrampeID">...</p><p>°</p></div>
+      </div>
+      <div class="led"> 
+        <div> <p>Éclairage 1:</p><p id="Pe1ID">...</p><p>%</p></div><div> <p>Éclairage 2:</p><p id="Pe2ID">...</p><p>%</p></div><div> <p>Éclairage 3:</p><p id="Pe3ID">...</p><p>%</p></div><div> <p>Éclairage 4:</p><p id="Pe4ID">...</p><p>%</p></div>
+      </div>
+      <div class="flow">
+        <div> <p>Brassage 1 :</p><p id="Pbrass1ID">...</p><p>%</p></div><div> <p>Brassage 2 :</p><p id="Pbrass2ID">...</p><p>%</p></div><div> <p>Brassage 3 :</p><p id="Pbrass3ID">...</p><p>%</p></div>
+      </div>
+      <div class="setting">
+        <div class="ph"> <p>PH :</p><p id="PhbacID">...</p></div><div class="redox"> <p>Redox :</p><p id="RedoxID">...</p></div><div class="sel"><p>Salinité :</p><p id="ECID">...</p></div>
+      </div>
+    </main>
+  </body>
+</html>
