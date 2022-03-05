@@ -20,6 +20,21 @@ voici quelques lien pour acheter votre écran :
 > NX8048T070 : 
 > https://amzn.to/3HEMzyd
 
+> NX8048T050 :
+> https://amzn.to/3Mn7Ccn , 
+> https://amzn.to/3HIcTYf
+
+> NX8048P070 : 
+> https://amzn.to/3vGS0KX ,
+> https://amzn.to/3vWU0in
+
+> NX8048P050 :
+> https://amzn.to/3tzE6aL , 
+> https://amzn.to/3tAiRp0 ,
+> https://amzn.to/3pEDW0K ,
+> https://amzn.to/3ttWgul
+
+
 
   
 -----
