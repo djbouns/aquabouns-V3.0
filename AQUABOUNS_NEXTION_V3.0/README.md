@@ -9,14 +9,16 @@ Les copies ne reconnaisent pas les fichiers
 
 voici quelques lien pour acheter votre écran : 
 > NX8048K050
-> https://amzn.to/374M18p
+> https://amzn.to/374M18p ,
 > https://amzn.to/3CfWHwh
 
 > NX8048K070
-> https://amzn.to/3hDuWED
-> https://amzn.to/3vH1E06
-> https://amzn.to/3CjSxDU
+> https://amzn.to/3hDuWED , 
+> https://amzn.to/3vH1E06 , 
+> https://amzn.to/3CjSxDU 
 
+> NX8048T070 : 
+> https://amzn.to/3HEMzyd
 
 
   
