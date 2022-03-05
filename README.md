@@ -69,7 +69,7 @@ contact: loic_dekeyser@outlook.com
 #### Améliorations
 - Re design total de la partie graphique
 - Amelioration de l'utilisation de la memoire -4% soit 275 octets
-- 13 ecrans Nextion compatible au lieu de 13 (serie standard, enhanced et inteligent) en resolution 800*480
+- 13 ecrans Nextion compatible au lieu de 5 (serie standard, enhanced et inteligent) en resolution 800*480
 - Ajout de la gestion de la temperature du bac (au lieu de juste la securiser)
 - Passage de 2 (bleu, blanc) a 4 (couleur 1, couleur 2, couleur3 3, couleur 4) canaux independant d'éclairage
 - Ajout d'un bouton "changement d'eau" qui coupe la pompe de remontée, l'osmolation, l'ecumeur et le chauffage. cela permet de vidanger sa decante et faire son changement d'eau
